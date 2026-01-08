@@ -1,0 +1,40 @@
+.container{
+    margin: auto;
+    height: 75vh;
+    width: 400px;
+    position: relative;
+}
+
+.output_area{
+    height: 150px;
+    width: 380px;
+    margin: 10px;
+    position: relative;
+}
+.output_box{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 98%;
+    height: 40%;
+    color: white;
+    text-align: right;
+    border: none;
+}
+.buttons{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-evenly;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn{
+    padding: 30px 40px;
+    border-radius: 10px;
+    border-style: none;
+
+}
